@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         //Đọc và hiển thị hình dùng Picasso
         Picasso.get()
                 .load("http://hcmup.edu.vn/images/stories/site_18/mainsite/daotao.png")
-                .error(R.drawable.noimage)
+                .error(R.drawable.noimage)//lỗi thì load hình sẵn có
                 .fit()
                 .into(imgHinh);
     }
